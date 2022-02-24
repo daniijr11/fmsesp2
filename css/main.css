@@ -2,8 +2,11 @@ p{
   color:white;
 }
 
+
 body{
 }
+
+
 header h1{
   color:red;
 }
@@ -12,8 +15,21 @@ header h1{
 section h1{
   color:red;
 }
+
+
 table{
   background-color:red;
-  border-color: black;
-  
+  border: 10px solid black;
+}
+table tr td{
+  border: 3px solid black;
+}
+
+
+.titulos{
+  font-size: 50px;
+}
+
+h1{
+  color:red;
 }
