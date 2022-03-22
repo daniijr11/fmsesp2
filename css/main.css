@@ -27,9 +27,84 @@ table tr td{
 
 
 .titulos{
-  font-size: 50px;
+  font-size: 20px;
 }
 
 h1{
   color:red;
+}
+
+
+
+*{
+  margin:0;
+  padding:0;
+}
+
+#container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 4fr 4fr 4fr 4fr 1fr;
+  grid-template-rows:5vh 5vh 10vh 5vh 10vh 5vh 10vh 5vh 5vh 5vh 5vh 10vh 5vh;
+}
+
+
+#container .celda1{
+  grid-column: 1/8;
+  grid-row: 1/2;
+  text-align: center;
+}
+
+#container .celda2{
+  grid-column: 1/8;
+  grid-row: 2/3;
+}
+
+#container .celda3{
+  grid-column: 0/0;
+  grid-row: 0/0;
+}
+
+#container .celda4{
+  grid-column: 0/0;
+  grid-row: 0/0;
+}
+
+#container .celda5{
+  grid-column: 0/0;
+  grid-row: 0/0;
+}
+
+#container .celda6{
+  grid-column: 0/0;
+  grid-row: 0/0;
+}
+
+#container .celda7{
+  grid-column: 0/0;
+  grid-row: 0/0;
+}
+
+#container .celda8{
+  grid-column: 0/0;
+  grid-row: 0/0;
+}
+
+#container .celda9{
+  grid-column: 0/0;
+  grid-row: 0/0;
+}
+
+#container .celda10{
+  grid-column: 0/0;
+  grid-row: 0/0;
+}
+
+#container .celda11{
+  grid-column: 0/0;
+  grid-row: 0/0;
+}
+
+#container .celda12{
+  grid-column: 0/0;
+  grid-row: 0/0;
 }
